@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/nqtr_values/routine_value.rpy", line 7, in script
+    define df_routine = {
+  File "game/nqtr_values/routine_value.rpy", line 7, in script
+    define df_routine = {
+  File "game/nqtr_values/routine_value.rpy", line 13, in <module>
+    characters=a,
+NameError: name 'a' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\main.py", line 541, in main
+    renpy.game.context().run(node)
+  File "game/nqtr_values/routine_value.rpy", line 7, in script
+    define df_routine = {
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "game/nqtr_values/routine_value.rpy", line 7, in script
+    define df_routine = {
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 2249, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/nqtr_values/routine_value.rpy", line 13, in <module>
+    characters=a,
+NameError: name 'a' is not defined
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.3.3.24111502
+ 0.3
+Mon Dec  2 16:45:36 2024

@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/nqtr_tool/quest_fun.rpy", line 8: invalid syntax
+    def update_quests_levels() -> None:
+                                ^
+    
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Sat Nov 30 15:28:01 2024
